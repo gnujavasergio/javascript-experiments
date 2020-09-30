@@ -19,7 +19,7 @@ console.log(fistName); // Correcto
 console.log(lastName); // Incorrecto Sale error lastName is not defined
 ```
 ## Hoisting
-- Hoisting es cuando las variables y las funciones se declaran antes que se procese cualquier tipo de codigo.
+- Hoisting es cuando las variables y las funciones se declaran antes que se procese cualquier tipo de código.
 - Hoisting solo se genera en ESCMASCRIPT 5 hacia abajo este problema ya no ocurre con ESCMASCRIPT 6.
 - [https://developer.mozilla.org/es/docs/Glossary/Hoisting](https://developer.mozilla.org/es/docs/Glossary/Hoisting)
 - [https://medium.com/@anamartinezaguilar/qu%C3%A9-es-el-hoisting-327870f67b36](https://medium.com/@anamartinezaguilar/qu%C3%A9-es-el-hoisting-327870f67b36)
@@ -30,7 +30,7 @@ console.log(lastName); // Incorrecto Sale error lastName is not defined
 ## Coerción
 - Coerción significa poder cambiar de un valor a otro
 - Hay dos tipos de coerciones
-    - Coercion implicita: Es cuando un lenguaje nos ayuda a decidir que valor nos devolvera en una operacion.
+    - Coercion implícita: Es cuando un lenguaje nos ayuda a decidir que valor nos devolvera en una operacion.
     - Coerción explicita: Es lo que nosotros obligamos a que se covierta el valor a algo que necesitamos. Funciones explicitas
         - String(value) 
         - Number(value)

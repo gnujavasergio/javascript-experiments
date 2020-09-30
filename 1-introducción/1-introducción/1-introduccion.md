@@ -13,8 +13,10 @@ false-3; // -3
 - Motor de Javascript V8
 
 ## Backwards & Forwards
-- **Forwards** ser compatible con versiones futuras significa que incluir alguna feature al lenguaje. En un programa no causaria que se rompa si se ejecuta en un motor JS anterior. JS no es compatible con versiones futuras.
-- **Js es Backforwards compatible** La compatibilidad con versiones anteriores significa que cuando se acepta como JS valido, no habra un cambio futuro que haga que el codigo deje de funcionar.
+- **Forwards** ser compatible con versiones futuras significa que incluir alguna feature al lenguaje. 
+En un programa no causaria que se rompa si se ejecuta en un motor JS anterior. JS no es compatible con versiones futuras.
+- **Js es Backforwards compatible** La compatibilidad con versiones anteriores significa que cuando se acepta como JS valido, 
+no habra un cambio futuro que haga que el codigo deje de funcionar.
 **Nota** para poder utilizar las nuevas funcionalidades se utiliza compiladores como Babel.
 
 ## Porque JavaScript
@@ -29,6 +31,7 @@ false-3; // -3
     - Ionic
     - React Native
     - NativeScript
+    - Quasar
 - Desarrollo de apps para Desktop
     - Electron
 - Desarrollo en el Backend/ IOT(Internet of Things)
