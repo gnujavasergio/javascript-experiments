@@ -46,7 +46,7 @@ typeof {name: "Sergio"}
     - Object {}
 
 ## Variables
-- Para crear variables en python se utiliza el formato snake case.
+- Para crear variables en javascript se utiliza el formato CamelCase.
 - Variable: Espacios en memoria para almacenar un valor
 - Las variables tienen que tener nombre significativos
 - Una variable no puedo comenzar por numeros
