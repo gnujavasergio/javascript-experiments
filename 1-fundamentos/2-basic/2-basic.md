@@ -52,7 +52,7 @@ typeof {name: "Sergio"}
         - Un objeto es una coleccion de propiedades(Propiedad es una asociación
           de clave y valor)
         - JavaScript esta diseñado en un paradigma de Objetos
-- [Ejemplo0](../examples/2-basic/ejemplo0/README.md)
+- [Ejemplo0](../examples/2-basic/1-data-types/README.md)
 
 ## Variables
 - Para crear variables en javascript se utiliza el formato CamelCase.
@@ -63,12 +63,25 @@ typeof {name: "Sergio"}
 - No deben ser keywords(palabras reservadas)
 - keywords para declarar variables
     - `var`
+    - `let`
 - [Ejemplo1](../examples/2-basic/ejemplo1/README.md)
 
 # Operadores
 - [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators)
 
 ## Operadores Aritmeticos
+- En que orden se evaluan las matematicas operaciones complejas
+    1. Parentesis
+    2. Exponenetes
+    3. Multiplicacion/Division
+    4. Adición/Sustracción
+- Una forma facil de recordar este orden es usando el acronimo PEMDAS
+    - Parentesis
+    - Exponentes
+    - Multiplicación
+    - División
+    - Adición
+    - Sustracción
 - Suma `+`
 - Resta `-`
 - Multiplicación `*`
@@ -78,13 +91,6 @@ typeof {name: "Sergio"}
  - [Ejemplo2](../examples/2-basic/ejemplo2/README.md)
 
 ## Operadores de comparación
-- En que orden se evaluan las matematicas operaciones complejas
-    1. Parentesis
-    2. Exponenetes
-    3. Multiplicacion/Division
-    4. Adición/Sustracción
-- Una forma facil de recordar este orden es usando el acronimo 
-  PENDAS(ParentesisExponentesMultiplicaciónDivisiónAdiciónSustracción)
 - `==` igual, compara el valor
 - `!=` No igual o diferente, compara el valor
 - `===` Igual estricto, compara el tipo y el valor
@@ -168,3 +174,14 @@ var x = x | y;
 - El operador tenerario si lo utilizo en java, php, dart y podra utilizarlo en javascript de la misma forma.
 - `condition ? (statement if true) : (statement if false);`
 - [Ejemplo7](../examples/2-basic/ejemplo7/README.md)
+
+## 'use strict'
+- Es ingnorado por navegadores antiguos porque esta entre comillas simples y es manejado como una expresion.
+- Forzar que todas la variables sean declaradas, antes de que se usen.
+- Las variables mas escritas son creadas en el scope global sino no se usa `use strict`
+- Usar **use strict** es una buena practica en JavaScript.
+- No puedes crear una variable con palabras reservadas.
+- No puedes eliminar una variable con el keyword `delete`
+- No puedes elminar una funcion con el keyword `delete`
+
+
