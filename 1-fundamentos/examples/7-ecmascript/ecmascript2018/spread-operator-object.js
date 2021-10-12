@@ -5,6 +5,6 @@ let developer = {
     'country': 'BO'
 }
 // Destructurar una variable con spread operator
-let { firstName, ...information } = developer;
+let {firstName, ...information} = developer;
 console.log(`name: ${firstName}`);
 console.log(`additional information: `, information);

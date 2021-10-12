@@ -14,7 +14,7 @@ class Person {
     }
 }
 
-let sergio = new Person('Sergio Antonio', 'Ochoa Martinez', 1.175);
+let sergio = new Person('Sergio Antonio', 'Ochoa Martinez', 1.75);
 sergio.greet();
 console.log(sergio.imTall());
 

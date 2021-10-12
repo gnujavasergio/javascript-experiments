@@ -41,15 +41,21 @@
       mismo nombre e utilziarlo de varias formas.
 
 ## Objetos
-- En javascript todo esta basado en objetos
+- En javascript todo finaliza en prototipo Object
     - Objetos literales
-    - Array
-    
+      ![object](images/object.png)
+    - Arrays
+      ![array](images/array.png)
+    - Instancias de prototipos
+    - Prototipo Object
+    - Funciones
+
+Prototype chain - https://chamikakasun.medium.com/javascript-prototype-and-prototype-chain-explained-fdc2ec17dd04
+![prototype](images/prototype.png)
 - [Ejemplo1](../examples/5-poo/1-objects/README.md)
 
 ## Clases en javascript con prototipos
-
-- Una clase en javascript com prototipos tiene dos componentes
+- Una clase en javascript con prototipos tiene dos componentes
     - Expresiones
     - Declaraciones
 - Herencia con prototipos se utiliza una función
@@ -64,7 +70,16 @@
 - Con la ayuda de la abstraccion podemos abstraer un conjunto de objetos para poder crear un molde
   un esqueleto
 - Con ese esqueleto que sera una clase podremos crear n objetos  
-  
+- [Ejemplo4](../examples/5-poo/4-abstraccion/README.md)
+
+## Encapsulamiento
+- Esconder metodos y atributos
+- No permitir la alteracion de metodos y atributos
+- Formas de implementar el encapsulamiento en JS
+    - Getters y setters
+    - Namespaces
+    - Object.defineProperties
+    - Modulos de ES6
 ## Herencia
 - La herencia en una especializacion de una clase y tambien es una forma de refactorizar codigo.
 - La herencia en javascript es solo de una clase y no de varias.
