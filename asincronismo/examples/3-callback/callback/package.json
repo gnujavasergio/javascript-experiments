@@ -1,0 +1,16 @@
+{
+  "name": "callback",
+  "version": "1.0.0",
+  "description": "examples callback",
+  "main": "index.js",
+  "scripts": {
+    "server": "node src/server.js",
+    "operation": "node src/operation.js",
+    "date" : "node src/date.js"
+  },
+  "keywords": [
+    "callback"
+  ],
+  "author": "",
+  "license": "ISC"
+}

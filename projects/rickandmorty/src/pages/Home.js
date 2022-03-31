@@ -1,4 +1,5 @@
 import getData from "../utils/getData";
+import Format from "text";
 
 const Home = async () => {
     const characters = await getData();
@@ -8,7 +9,7 @@ const Home = async () => {
             <article class="character-item">
                 <a href="#/${character.id}/">
                     <img src="${character.image}" alt="${character.name}">
-                    <h2>${character.name}</h2>                    
+                    <h2>${Format.upperText(character.name)}</h2>                    
                 </a>
             </article>
         `).join('')}            

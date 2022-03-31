@@ -8,3 +8,4 @@ let developer = {
 const entries = Object.entries(developer);
 console.log(entries);
 console.log(entries.length);
+

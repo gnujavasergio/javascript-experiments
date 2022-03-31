@@ -1,8 +1,8 @@
-// boolean
-var isPro = false;
-var isPro = true;
 
-// Variables sin tipo o inferido
+// undefined
+let isUndefined; // Variable declarada sin ningun valor asignado
+console.log(isUndefined);
+
 // number
 // integer
 var isInteger = 1234; // número decimal

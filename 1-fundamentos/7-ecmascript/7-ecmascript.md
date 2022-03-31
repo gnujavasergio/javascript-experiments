@@ -125,16 +125,16 @@ Lanzada en junio de 2020
 
 Lanzada en junio de 2021
 
-- Replace y replaceAll: Para replazar valores en una cadena.
-- Metodo privados en una clase
+- Replace y replaceAll: Para remplazar valores en una cadena.
+- Metodos privados en una clase
     - Para convertir un metodo privado utilizamos `#`;
 - `Promise.any([])`: Nos devuelve la primera promesa que se resuelva correctamente
 - `this.ref = new WeakRef`: Crear una referencia devil de nuestra clase para que el recolector de basura de JavaScript
   no elimine la instancia de la clase.
 - Nuevos operadores de Asignacion
-  - `&&=`
-  - `||=`
-  - `??=`
+    - `&&=`
+    - `||=`
+    - `??=`
 
 ## Comite Tecnico TC39
 

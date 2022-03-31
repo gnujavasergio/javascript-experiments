@@ -1,4 +1,5 @@
-var age = 18;
+let age = 18;
+console.log(`Edad: ${age}`);
 if (age === 18) {
     console.log("Puedes votar, será tu 1ra votación");
 } else if (age > 18) {

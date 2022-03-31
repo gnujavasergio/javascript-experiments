@@ -1,0 +1,18 @@
+{
+  "name": "callback-api",
+  "version": "1.0.0",
+  "description": "api, callback",
+  "main": "index.js",
+  "scripts": {
+    "api" : "node src/index.js"
+  },
+  "keywords": [
+    "api",
+    "callback"
+  ],
+  "author": "Sergio Antonio Ochoa Martinez <gnu.java.sergio@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
+}

@@ -24,7 +24,7 @@ let products = [
 
 for (const product of products) {
     if (product.cost < 20) {
+        console.log(JSON.stringify(product));
         break;
     }
-    console.log(JSON.stringify(product));
 }

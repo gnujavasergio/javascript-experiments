@@ -1,0 +1,4 @@
+## Ejecucion
+```
+npm run operation
+```
