@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Global this</title>
+</head>
+<body>
+<button onclick="this.style.background='Red'">this en el controlador de eventos</button>
+<button onclick="eventHandler(this)">Pasar a la funcion el controlador de eventos</button>
+<script>
+    'use strict';
+
+    function eventHandler(event) {
+        console.log(event.toString());
+        event.style.background = 'Blue';
+    }
+
+</script>
+</body>
+</html>

@@ -110,7 +110,7 @@ Lanzada en junio de 2020
     - No importa el estado de las promesas `resolve` o `reject`
     - A diferencia de `Promise.all([])` solo importa que todas las promesas se resuelvan y si existe un error continua
       ejecutando.
-- GloablThis:
+- GloabalThis:
     - Proporciona una forma estandar de acceder al valor global
     - Ahora no solo se podra usar en el navegador sino tambien en las aplicaciones con nodejs.
 - Operador logico de nulo `??`: Para colocar un valor por defecto cuando una variable es nulo.

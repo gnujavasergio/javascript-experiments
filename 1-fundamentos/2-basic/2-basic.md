@@ -1,7 +1,7 @@
 # Conceptos basicos
 
-## Valores y Tipos de datos
-### Valores
+## Valores
+
 - Valores primitivos
     - Valor tipo numero
         - 40
@@ -10,7 +10,7 @@
         - "Sergio Ochoa"
     - Valor tipo booleano
         - true
-        - false    
+        - false
     - Valores vacios(hay que evitarlo)
         - null
         - undefined
@@ -19,6 +19,9 @@
         - [1,2,3]
     - Valor tipo objeto
         - { firstName: "Sergio Antonio" }
+
+### Typeof para saber el tipo de dato
+
 ```javascript
 // Utilizar en consola
 typeof 40
@@ -31,25 +34,34 @@ typeof null
 "object"
 typeof undefined
 "undefined"
-typeof [1,2,3]
+typeof [1, 2, 3]
 "object"
 typeof {name: "Sergio"}
 "object"
 ```
-### Tipos de  datos
+
+- **Constructor prototype para determinar de que tipo es un objeto**
+    - Todos los tipos de datos de objetos derivan de object
+    - Object tienen la propiedad constructor. Esta propiedad de constuctor una referencia al objeto en si.
+
+- **Operador instanceof**: Podemos saber de que tipo es siempre y cuando sea un objeto.
+
+## Tipos de datos
+
 - Tipo de datos primitivos
     - boolean: true o false
-    - undefined: sin valor
-    - undefined: una variable declarada, pero no tiene valor  
     - number: integers, decimals, float
     - string, un serie (arrays) de caracteres
+    - undefined: una variable declarada, pero no tiene valor.
+    - NaN: (Not a Number) No es un numero
+        - Esto sucede cuando tratas de +,-,* o / `"asd"+20`
 - Tipo de datos Objecto
+    - null: es un objeto especial que indica la ausencia de valor
     - Array []
-      - Es una estructura de datos 
-      - Es un objeto de tipo lista de alto nivel
-      - Los arrays son objetos de tipo lista cuyo prototipo
-        tiene metodos para realizar operaciones de recorrido
-        y mutación
+        - Es una estructura de datos
+        - Es un objeto de tipo lista de alto nivel
+        - Los arrays son objetos de tipo lista cuyo prototipo tiene metodos para realizar operaciones de recorrido y
+          mutación
     - Object {}
         - Un objeto es una coleccion de propiedades(Propiedad es una asociación
           de clave y valor)
@@ -61,15 +73,17 @@ typeof {name: "Sergio"}
     - RegExp
         - Una expresion regular
     - Boolean
-        - Un objeto que contiene true o false       
+        - Un objeto que contiene true o false
     - Number
         - Un objeto que contiene un valor numerico
     - String
         - Un objeto que contiene caracteres
-    **Nota** Boolean, Number, String ocupan un espacio de memoria mas grande y acceder a ellos es mas lento que aun dato primitivo.
+          **Nota** Boolean, Number, String ocupan un espacio de memoria mas grande y acceder a ellos es mas lento que
+          aun dato primitivo.
 - [Data types](../examples/2-basic/1-data-types/README.md)
 
 ## Variables
+
 - Para crear variables en javascript se utiliza el formato CamelCase.
 - Variable: Espacios en memoria para almacenar un valor
 - Las variables tienen que tener nombre significativos
@@ -82,9 +96,11 @@ typeof {name: "Sergio"}
 - [Ejemplo1](../examples/2-basic/2-variables/README.md)
 
 # Operadores
+
 - [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators)
 
 ## Operadores Aritmeticos
+
 - En que orden se evaluan las matematicas operaciones complejas
     1. Parentesis
     2. Exponenetes
@@ -103,9 +119,10 @@ typeof {name: "Sergio"}
 - División `/`
 - Modulo `%` es el restante de una división
 - Potencia `**` calcula la potencia de un numero
- - [Ejemplo2](../examples/2-basic/3-operadores-aritmeticos/README.md)
+- [Ejemplo2](../examples/2-basic/3-operadores-aritmeticos/README.md)
 
 ## Operadores de comparación
+
 - `==` igual, compara el valor
 - `!=` No igual o diferente, compara el valor
 - `===` Igual estricto, compara el tipo y el valor
@@ -117,68 +134,94 @@ typeof {name: "Sergio"}
 - [Ejemplo3](../examples/2-basic/4-operadores-comparacion/README.md)
 
 ## Operadores de Asignación
+
 - Un operador de asignación asigna un valor a su operando izquierdo en funcion de su valor de su operando derecho.
+
 ```javascript
 // Asignación
 var x = y;
 
 // Asignacion de Suma
-var x += y; 	// short
+var x
++= y; 	// short
 var x = x + y; // full
 
 // Asignacion de resta
-var x -= y; 	//short
+var x
+-= y; 	//short
 var x = x - y; // full
 
 // Asignación de multiplicación
-var x *= y; // short
-var	x = x * y; // full
+var x
+*= y; // short
+var x = x * y; // full
 
 // Asignación de División
-var x /= y; // Short 	
+var x
+/= y; // Short 	
 var x = x / y; // full
 
 // Asignación de residuo
-var x %= y; // short
-var	x = x % y; // full
+var x
+%= y; // short
+var x = x % y; // full
 
 // Asignación de exponenciación
-var x **= y; // short
-var	x = x ** y; // full
+var x
+**= y; // short
+var x = x ** y; // full
 
 // Asignación a la izquierda
-var x <<= y;
+var x
+<<= y;
 var x = x << y;
 
 // Asignación a la derecha
-var x >>= y; 	
+var x
+>>= y;
 var x = x >> y;
 
 // Asignación de desplazamiento a la derecha sin firmar
-var x >>>= y;
-var	x = x >>> y;
+var x
+>>>= y;
+var x = x >>> y;
 
 // Asignación AND a nivel de bit
-var x &= y;
+var x
+&= y;
 var x = x & y;
 
 // Asignación XOR a nivel de bit
-var x ^= y ;
+var x
+^= y;
 var x = x ^ y;
 
 // Asignación OR a nivel de bit
-var x |= y;
+var x
+|= y;
 var x = x | y;
 ```
+
 - [Operadores de asignacion](../examples/2-basic/5-operadores-asignacion/README.md)
 
 ## Operadores Logicos
-- `!expresion` Realiza una negación en la expresión
+
+- `!expresión` Realiza una negación en la expresión
+
+![not](images/image3.png)
+
 - `&&` AND
+
+![and](images/image1.png)
+
 - `||` OR
+
+![](images/image3.png)
+
 - [Operadores logicos](../examples/2-basic/6-opeadores-logicos/README.md)
 
 ## Operadores de incremento y decremento
+
 - `++i` Pre incremento
 - `i++` Post incremento
 - `--i` Pre decremento
@@ -186,11 +229,13 @@ var x = x | y;
 - [Ejemplo operadores de incremento y decremento](../examples/2-basic/7-operadores-incremento-decremento/README.md)
 
 ## Operador Ternario
+
 - El operador tenerario si lo utilizo en java, php, dart y podra utilizarlo en javascript de la misma forma.
 - `condition ? (statement if true) : (statement if false);`
 - [Ejemplo operador ternario](../examples/2-basic/8-operador-ternario/README.md)
 
 ## 'use strict'
+
 - Es ingnorado por navegadores antiguos porque esta entre comillas simples y es manejado como una expresion.
 - Forzar que todas la variables sean declaradas, antes de que se usen.
 - Las variables mas escritas son creadas en el scope global sino no se usa `use strict`
@@ -199,4 +244,11 @@ var x = x | y;
 - No puedes eliminar una variable con el keyword `delete`
 - No puedes elminar una funcion con el keyword `delete`
 
+## Spread operator (Operador de propagación)
+
+- Expande cualquier iterable, como una string o un array dentro de otro array.
+- Para pasar multiplos argumentos a una funcion
+- La sintaxis es utilizando `...`
+- Siempre esta al lado derecho de un signo igual.
+- Note: No se tiene soporte en IE y Edge
 

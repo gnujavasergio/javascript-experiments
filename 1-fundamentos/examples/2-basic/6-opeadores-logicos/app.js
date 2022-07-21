@@ -1,4 +1,5 @@
 let price = 200;
+console.log(`price = ${price}`);
 
 // AND (&&) Operator
 if (price > 10 && price < 1600) {

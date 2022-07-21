@@ -18,6 +18,7 @@ try {
 
 }
 ```
+
 - [try-catch-finally](../examples/10-exceptions/1-try-catch-finally/1-try-catch.js)
 
 ## Throw

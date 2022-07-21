@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Global this</title>
+</head>
+<body>
+<script>
+    'use strict';
+
+    console.log("Begin: this global");
+    console.log(this.toString());
+    console.log(`this === window =  ${(this === window).toString()}`);
+    console.log("End: this global");
+
+    /**
+     * AL decomentar 'use strict' sale error
+     */
+    function functionScope() {
+        console.log(this.toString());
+        console.log(`this === window =  ${(this === window).toString()}`);
+    }
+
+    functionScope();
+</script>
+</body>
+</html>

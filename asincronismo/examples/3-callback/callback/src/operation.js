@@ -6,6 +6,10 @@ function substraction(num1, num2) {
     return num1 - num2;
 }
 
+function multiplication(num1, num2) {
+    return num1 * num2;
+}
+
 function executeOperation(num1, num2, callback) {
     return callback(num1, num2);
 }
@@ -13,4 +17,6 @@ function executeOperation(num1, num2, callback) {
 console.log(executeOperation(3,5, addition));
 
 console.log(executeOperation(3,5, substraction));
+
+console.log(executeOperation(3,5, multiplication));
 

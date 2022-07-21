@@ -1,5 +1,5 @@
 function showDate(callback) {
-    console.log(new Date());
+    callback(new Date());
     setTimeout(() => {
         let date = new Date();
         callback(date);

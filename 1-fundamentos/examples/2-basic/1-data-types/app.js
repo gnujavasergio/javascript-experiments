@@ -17,7 +17,7 @@ var isOctal = 0o123; // número octal (equivale a 83 decimal)
 // Empieza con 0x
 // Valores comprendidos entre 0 a F
 // Valores numericos de 0 a 9 y A,B,C,D,E,F
-var isHexadeciml = 0x1A; // número hexadecimal (equivale a 26 decimal)
+var isHexadecimal = 0x1A; // número hexadecimal (equivale a 26 decimal)
 
 // Valores binarios
 // Empieza con 0b

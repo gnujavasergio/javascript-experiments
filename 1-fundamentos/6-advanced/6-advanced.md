@@ -48,3 +48,16 @@ console.log(lastName); // Incorrecto Sale error lastName is not defined
 
 ## Debugger
 - Podemos colocar break points o puntos de ruptura para revisar el codigo con el keyworrd `debugger`
+
+## This
+- this refiere a un objeto
+- this tendra un diferente valor segun en donde se ejecute
+  - En una metodo que este dentro de un objeto
+  - En una funcion se refiere al objeto global o al objeto window.
+  - En una evento es el elemento que recibio el evento.
+  - En los metodos call()/appply se refiere al objeto que se le pasa
+  - el uso de `use strict` tambien afecta `this`
+- El scope determina el valor de this
+  - Global object
+  - HTML element
+  - Propietario del metodo

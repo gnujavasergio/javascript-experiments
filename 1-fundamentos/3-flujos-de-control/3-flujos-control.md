@@ -126,7 +126,7 @@ for (const nombreVariable of lista) {
 - **do while** ejecuta el codigo primero y luego evalúa la condición.
 - La estructura del ciclo **while** es:
 
-```dart
+```javascript
 while(condicion) {
 //codigo
 }
@@ -134,7 +134,7 @@ while(condicion) {
 
 - La estructura del ciclo **do while** es:
 
-```dart
+```javascript
 do {
 
 } while
@@ -143,11 +143,11 @@ do {
 
 - [Ejemplo4](../examples/3-flujos-de-control/4-while/README.md)
 
-## Declaracion de break y continue
+## Break y continue
 - break: ruptura en un bucle
 - continue: continue le permite volver a la parte superior del bucle.
 
-## Declaración de etiquetas
-- Estas etiquetas no es recomendable usuario 
+## Etiquetas
+- Estas etiquetas no es recomendable usarlas 
 - Se lo indica para que sepa como funciona y poder asi cambiar su implementación a otro tipo de declaración.
 

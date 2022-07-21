@@ -1,4 +1,4 @@
-// closure creando intencionalmente esto se soluciona colocando let en ver de var
+// closure creando intencionalmente esto se soluciona colocando let en vez de var
 const showNumbers = () => {
     for (var i = 0; i < 10; i++) {
         setTimeout(() =>  {
