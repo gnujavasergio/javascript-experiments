@@ -6,7 +6,7 @@ const buildCount = (i) => {
     return displayCount;
 }
 
-const count = buildCount(1);
+const count = buildCount(1)(2);
 count();
 count();
 count();

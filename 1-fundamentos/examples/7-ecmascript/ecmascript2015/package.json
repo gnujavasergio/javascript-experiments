@@ -10,5 +10,6 @@
     "javascript"
   ],
   "author": "Sergio Antonio Ochoa Martinez <gnu.java.sergio@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "type": "module"
 }

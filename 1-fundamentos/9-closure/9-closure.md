@@ -7,6 +7,8 @@
 
 - [Closure](../examples/9-closure/1-closure.js)
 
+## Closure con variables privadas
+
 - Por medio de closure podemos crear variables privadas que pueden ser accedidos o modificados por medio de metodos.
 
 - [Variables privadas](../examples/9-closure/3-variables-private.js)

@@ -1,0 +1,15 @@
+{
+  "name": "generatos",
+  "version": "1.0.0",
+  "description": "examples generators",
+  "main": "index.js",
+  "scripts": {
+    "operations": "node src/operations.js",
+    "arrays": "node src/arrays.js"
+  },
+  "keywords": [
+    "promise"
+  ],
+  "author": "",
+  "license": "MIT"
+}

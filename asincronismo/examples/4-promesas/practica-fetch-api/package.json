@@ -1,0 +1,20 @@
+{
+  "name": "promise-api",
+  "version": "1.0.0",
+  "description": "api, promise",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "create": "node src/create.js"
+  },
+  "keywords": [
+    "api",
+    "promesas"
+  ],
+  "author": "Sergio Antonio Ochoa Martinez <gnu.java.sergio@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^3.2.10"
+  },
+  "type": "module"
+}

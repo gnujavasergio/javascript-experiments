@@ -106,14 +106,24 @@ for (const key in developer) {
 ```
 
 - Estructura `for...of`
-  - Para interar una listas
-  - Para interar una cadena
+    - Para interar una listas
+    - Para interar una cadena
 
 ```javascript
 var lista = ['a', 'b', 'c', 'd'];
 for (const nombreVariable of lista) {
     console.log(nombreVariable);
 }
+```
+
+- Estructura forEach
+- La función, que recibe como argumento el método forEach, utiliza tres parámetros opcionales:
+    - El valor actual del elemento iterado. Es decir, si es la primera iteración, será el primer elemento, y así
+      sucesivamente.
+    - El índice del elemento iterado. Es decir, si es la primera iteración, será el índice 0, y así sucesivamente.
+    - El array que está iterando.
+```javascript
+array.forEach(function(element, index, array));
 ```
 
 - [Ejemplo3](../examples/3-flujos-de-control/3-for/README.md)
@@ -127,7 +137,7 @@ for (const nombreVariable of lista) {
 - La estructura del ciclo **while** es:
 
 ```javascript
-while(condicion) {
+while (condicion) {
 //codigo
 }
 ```
@@ -138,16 +148,18 @@ while(condicion) {
 do {
 
 } while
-(condicion);
+    (condicion);
 ```
 
 - [Ejemplo4](../examples/3-flujos-de-control/4-while/README.md)
 
 ## Break y continue
+
 - break: ruptura en un bucle
 - continue: continue le permite volver a la parte superior del bucle.
 
 ## Etiquetas
-- Estas etiquetas no es recomendable usarlas 
+
+- Estas etiquetas no es recomendable usarlas
 - Se lo indica para que sepa como funciona y poder asi cambiar su implementación a otro tipo de declaración.
 

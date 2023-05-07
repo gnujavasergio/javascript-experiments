@@ -52,8 +52,18 @@
 
 Prototype chain - https://chamikakasun.medium.com/javascript-prototype-and-prototype-chain-explained-fdc2ec17dd04
 ![prototype](images/prototype.png)
-- [Ejemplos objects](../examples/5-poo/1-objects/README.md)
+- [Ejemplos objects](../examples/5-poo/1-objects-literals/README.md)
 
+### Object literals
+- A un objecto puedes acceder a su propiedad con `.` o con `[]`
+- Acceder aun objecto con `[]` cuando la propiedad tiene espacios
+- Cada propiedad tiene una descripcion que se acceder con el metodo `Object.getOwnPropertyDescriptor(person, 'firstName')`
+  - Value
+  - writable: Para que la propiedad puedes escribirse
+  - enumerable
+  - configurable
+![description-property](images/description-property.png)
+  
 ## Clases en javascript con prototipos
 - Una clase en javascript con prototipos tiene dos componentes
     - Expresiones

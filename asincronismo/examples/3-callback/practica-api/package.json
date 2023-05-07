@@ -4,7 +4,8 @@
   "description": "api, callback",
   "main": "index.js",
   "scripts": {
-    "api" : "node src/index.js"
+    "api": "node src/index.js",
+    "store": "node src/store.js"
   },
   "keywords": [
     "api",

@@ -4,11 +4,13 @@
   "description": "api, promise",
   "main": "index.js",
   "scripts": {
-    "serve" : "node src/index.js"
+    "serve": "node src/index.js",
+    "store": "node src/store.js",
+    "fetch-store": "node src/fetch-store.js"
   },
   "keywords": [
     "api",
-    "callback"
+    "promesas"
   ],
   "author": "Sergio Antonio Ochoa Martinez <gnu.java.sergio@gmail.com>",
   "license": "MIT",

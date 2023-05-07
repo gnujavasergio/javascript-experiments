@@ -1,8 +1,8 @@
 // Aqui se genera el hoisting
 console.log(name);  // undefined
-
 var name;
 name = "Sergio";
+console.log(name);
 
 // Hoisting de funciones
 hey(); // Hola undefined

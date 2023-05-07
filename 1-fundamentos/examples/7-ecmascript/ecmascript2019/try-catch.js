@@ -1,5 +1,11 @@
 try {
+    hello();
+} catch (error) {
+    console.log(error);
+}
 
-} catch /*(error) Ya no es necesario*/ {
-    error
+try {
+    welcome();
+} catch {
+    console.log("esto es un error")
 }

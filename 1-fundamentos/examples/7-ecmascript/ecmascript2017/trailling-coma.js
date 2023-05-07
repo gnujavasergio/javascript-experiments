@@ -6,3 +6,8 @@ let developer = {
 }
 
 console.log(developer);
+
+// Dejar campos vacios
+const array = [24,56,78,,,,45];
+console.log(array);
+console.log(array.length);
