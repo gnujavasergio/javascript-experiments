@@ -57,3 +57,23 @@
 - Un string se guarda como un array
 - No es posible manipular un string cambiar de slot en la memoria seria algo ineficiente.
 - ![image9.png](image/image9.png)
+
+## Hash Tables
+- Hash tables en otros lenguajes
+  - Javascript - Object
+  - Python - Diccionarios
+  - Java - Maps
+  - Go - Maps
+  - Ruby - Hashes
+  - Php - Array clave - valor
+- Los hash tables son similares a un objeto porque manejan una llave y un valor
+- Como funcionan
+ ![image10.png](image/image10.png)
+- Metodos
+  - insert - inserta un elemento en la tabla
+  - search - Buscar elemento por key
+  - delete - Borrar elemento
+- Problemas
+  - Puede existir un problema que es la colision de elementos. Es imposible saber 
+
+## Linked List
